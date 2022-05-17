@@ -1,0 +1,6 @@
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");

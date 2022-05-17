@@ -1,0 +1,84 @@
+.insights{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales{
+    flex:1;
+    margin: 0px 20px;
+    padding: 30px;
+}
+
+.left{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.insights>div{
+    background: rgb(235, 244, 255);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 0.25rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    box-shadow: none;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.insights>div:hover{
+    -webkit-box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75); 
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.75);
+}
+
+.Icon{
+    background: color-primary;
+    padding:0.5rem;
+    border-radius: 20%;
+    color:white;
+    font-size: 2rem;
+}
+
+.Icon{
+    background-color: rgb(1, 23, 146);
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;   
+}
+
+.cir{
+    width: 5rem;
+    height: 5rem;
+}
+
+.insights svg circle{
+    fill:none;
+    stroke: black;
+    stroke-width: 9;
+    stroke-linecap: round;
+    transform: translate(3px,3px);
+    stroke-dasharray: 110;
+    stroke-dashoffset: 92;
+}
+
+.number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

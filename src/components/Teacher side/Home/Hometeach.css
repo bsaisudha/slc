@@ -1,0 +1,15 @@
+.home{
+    flex: 4;
+}
+
+.head{
+    padding: 10px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}
